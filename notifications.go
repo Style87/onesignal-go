@@ -81,6 +81,7 @@ type NotificationRequest struct {
 	AndroidVisibility      int               `json:"android_visibility,omitempty"`
 	ContentAvailable       bool              `json:"content_available,omitempty"`
 	AndroidBackgroundData  bool              `json:"android_background_data,omitempty"`
+	AndroidChannelId       string            `json:"android_channel_id,omitempty"`
 	AmazonBackgroundData   bool              `json:"amazon_background_data,omitempty"`
 	TemplateID             string            `json:"template_id,omitempty"`
 	AndroidGroup           string            `json:"android_group,omitempty"`
